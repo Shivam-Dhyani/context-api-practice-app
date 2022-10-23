@@ -1,0 +1,21 @@
+.productContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly; /* Distribute items evenly having equal space around them */
+  flex-wrap: wrap;
+}
+
+.products {
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.productDescription {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
